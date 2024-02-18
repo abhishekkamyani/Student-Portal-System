@@ -16,6 +16,7 @@
 	--light-color: #67636368;
 }
 
+
 body {
 	background: linear-gradient(90deg, #C7C5F4, #776BCC);
 	min-height: 100vh;
@@ -25,6 +26,10 @@ body {
 	text-decoration: none;
 	color: white;
 } */
+
+.min-vh-90{
+	min-height: 90vh !important;
+}
 
 .nav-clr {
 	background-color: var(--sub-color) !important;
@@ -52,7 +57,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 }
 
 .screen {

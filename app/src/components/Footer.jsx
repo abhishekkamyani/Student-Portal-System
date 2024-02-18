@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   const { auth } = useAuth();
   let homeUrl = "/";
-  if (auth.role === 'admin') {
+  if (auth?.role === 'admin') {
     homeUrl = "/admin";
   }
-  else if (auth.role === 'student') {
+  else if (auth?.role === 'student') {
     homeUrl = "/student";
   }
   return (
-    <div className="container-fluid nav-clr">
+    <div className={"container-fluid nav-clr"}>
       <footer className="d-flex flex-wrap justify-content-center justify-content-sm-between align-items-center py-3 border-top">
         <div className="col-md-4 d-flex align-items-center">
           <Link to={homeUrl}

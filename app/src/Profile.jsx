@@ -13,7 +13,7 @@ export default function Profile() {
   }
 
   return (
-    <div className="container">
+    <div className="container min-vh-100">
       <div
         className="main-body my-5 py-5"
         style={{ backgroundColor: "var(--light-color)" }}

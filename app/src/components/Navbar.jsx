@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark nav-clr">
       <div className="container-fluid py-2">
-        <NavLink className="navbar-brand" to="/">
+        <NavLink className="navbar-brand" to="/student">
           Student Portal
         </NavLink>
         <button

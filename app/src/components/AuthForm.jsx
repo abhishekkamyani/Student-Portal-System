@@ -46,9 +46,9 @@ export default function AuthForm() {
   };
 
   return (
-    <div className="mycontainer">
+    <div className="mycontainer min-vh-100">
       <div className="screen">
-        <div className="screen__content">
+        <div className="screen__content min-vh-100">
           <form className="login" onSubmit={handleOnSubmit}>
             <div className="login__field">
               <FaRegUser />

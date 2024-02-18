@@ -35,7 +35,7 @@ export default function Courses() {
   }
 
   return (
-    <main className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gx-0 py-3 px-5">      
+    <main className="min-vh-100 row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gx-0 py-3 px-5">      
       {courses.map((course) => {
         return <Course {...course} key={course.courseID} />;
       })}
