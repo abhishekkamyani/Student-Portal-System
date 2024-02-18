@@ -25,6 +25,14 @@
     {
       "src": "/(.+)",
       "dest": "public/$1"
+    },
+    {
+      "src": "/student/(.*)",
+      "dest": "public/$1"
+    },
+    {
+      "src": "/admin/(.*)",
+      "dest": "public/$1"
     }
   ]
 }
