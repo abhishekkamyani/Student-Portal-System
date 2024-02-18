@@ -86,7 +86,7 @@ export default function AddCourse() {
 
   return (
     <div className="container">
-      <div className="row row-cols-1 row-cols-md-2 my-5 gx-5 gy-5 flex-wrap-reverse bg-secondary rounded">
+      <div className="row min-vh-100 row-cols-1 row-cols-md-2 my-5 gx-5 gy-5 flex-wrap-reverse bg-secondary rounded">
         <CourseList
           courses={enrolledCourses}
           setCourses={setEnrolledCourses}

@@ -64,7 +64,7 @@ export default function DropCourse() {
   }
 
   return (
-    <div className="container bg-secondary my-5 py-4 rounded px-5">
+    <div className="container min-vh-100 bg-secondary my-5 py-4 rounded px-5">
       <CourseList
         heading={"Remove your courses"}
         courses={courses}
