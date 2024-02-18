@@ -1,0 +1,22 @@
+[
+    {
+      "code": "CSE101",
+      "name": "Introduction to Computer Science"
+    },
+    {
+      "code": "ENG201",
+      "name": "Advanced English Composition"
+    },
+    {
+      "code": "MATH301",
+      "name": "Calculus III"
+    },
+    {
+      "code": "HIST401",
+      "name": "World History: 20th Century"
+    },
+    {
+      "code": "PHYS501",
+      "name": "Quantum Physics"
+    }
+  ]
